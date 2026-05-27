@@ -1,0 +1,16 @@
+# Local .terraform directories anywhere in the project
+**/.terraform/*
+.terraform/
+
+# .tfstate files anywhere in the project
+**/*.tfstate
+**/*.tfstate.*
+
+# Exclude all .tfvars files
+**/*.tfvars
+**/*.tfvars.json
+
+# Ignore lock and log files
+**/.terraform.tfstate.lock.info
+**/crash.log
+**/crash.*.log
